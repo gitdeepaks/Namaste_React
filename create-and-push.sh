@@ -1,28 +1,22 @@
 #!/bin/bash
 
-# Set the repository name
-REPO_NAME="Namaste_React"
+# Set the GitHub repository URL
+REPO_URL="https://github.com/gitdeepaks/Namaste_React.git"
+
+# Set the branch name
+BRANCH_NAME="master"
 
 # Set the commit message
-COMMIT_MESSAGE="Initial commit"
+COMMIT_MESSAGE="Commit message goes here"
 
-# Create a new repository on GitHub using the API
-curl -u "gitdeepaks" https://api.github.com/user/repos -d '{"name":"'$Namaste_React'"}'
-
-# Initialize a Git repository locally
-git init
-
-# Add all files to the staging area
+# Add all changes to the staging area
 git add .
 
 # Commit the changes with the given message
-git commit -m "$initial"
-
-# Set the remote URL for the repository on GitHub
-git remote add origin "https://github.com/YOUR_GITHUB_USERNAME/$Namaste_React.git"
+git commit -m "$COMMIT_MESSAGE"
 
 # Push the changes to the GitHub repository
-git push -u origin master
+git push $REPO_URL $BRANCH_NAME
 
 # Print a success message
-echo "Pushed first code to GitHub"
+echo "Pushed changes to GitHub"
