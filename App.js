@@ -1,30 +1,32 @@
 const heading = React.createElement(
-    'h1',
+    "h1",
     {
-        id: 'title',
+        id: "title",
     },
-    'Heading 1'
+    "Heading 1"
 );
+
 const heading2 = React.createElement(
-    'h1',
+    "h2",
     {
-        id: 'title',
+        id: "title",
     },
-    'Heading 2'
+    "Heading 2"
 );
 
 const container = React.createElement(
-    'div',
+    "div",
     {
-        id: 'container',
+        id: "container",
     },
-    [heading1, heading2]
+    [heading, heading2]
 );
+
 console.log(heading);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-//Passing the react element inside the root
-//asyc and defer difference is HW
-root.render(container);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-console.log(`Hello`)
+//passing a react element inside the root
+
+//async defer
+root.render(container);
