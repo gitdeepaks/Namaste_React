@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaster React</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div id="header"><h1>Header</h1></div>
+    <!-- <div id="header"><h1>Header</h1></div> -->
     <div id="root">
+      <!-- <div id="container">
+      <h1>Heading1</h1>
+      <h2>Heading2</h2>
+      
+    </div> -->
+      Not Rendared
+
       <!-- <h1>Namaskar World !</h1> -->
     </div>
-    <div id="footer"><h1>Footer</h1></div>
+    <!-- <div id="footer"><h1>Footer</h1></div> -->
   </body>
   <script
     crossorigin
@@ -21,16 +29,5 @@
     crossorigin
     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
   ></script>
-  <script>
-    const heading = React.createElement(
-      'h1',
-      {},
-      'Namaskar EveryOne from React!'
-    );
-    console.log(heading);
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-
-    root.render(heading);
-  </script>
+  <script src="./App.js"></script>
 </html>
