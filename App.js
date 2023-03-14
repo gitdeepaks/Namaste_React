@@ -26,3 +26,5 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //Passing the react element inside the root
 //asyc and defer difference is HW
 root.render(container);
+
+console.log(`Hello`)
