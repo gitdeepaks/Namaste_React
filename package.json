@@ -1,0 +1,22 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "this is a live courese",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitdeepaks/Namaste_React.git"
+  },
+  "author": "Deepak Sankhyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitdeepaks/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/gitdeepaks/Namaste_React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
