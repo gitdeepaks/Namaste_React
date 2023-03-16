@@ -2,7 +2,6 @@
   "name": "namaste_react",
   "version": "1.0.0",
   "description": "this is a live courese",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -17,7 +16,8 @@
   },
   "homepage": "https://github.com/gitdeepaks/Namaste_React#readme",
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",

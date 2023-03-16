@@ -1,9 +1,23 @@
+/**
+ * 
+ * HMR-Hot Module Reloading
+ * File watchers algorithm - C++
+ * Bundling
+ * Minifying
+ * Cleaning our code
+ * 
+ * 
+ * **/
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement(
     "h1",
     {
         id: "title",
     },
-    "Heading 1"
+    "Heading from parcel"
 );
 
 
