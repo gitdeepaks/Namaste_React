@@ -39,4 +39,4 @@ const parent =
 
 // const head = React.createElement('h1', { id: "head" }, 'Hello world from React');
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent);
+root.render(parent); //putting the paren class into root tag.
