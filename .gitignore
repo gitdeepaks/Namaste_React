@@ -1,0 +1,4 @@
+create-and-push.sh
+push_to_git.sh
+node_modules
+.parcel-cache
