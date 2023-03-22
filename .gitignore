@@ -1,0 +1,4 @@
+/node_modules
+push_to_git.sh
+/dist
+.parcel-cache
