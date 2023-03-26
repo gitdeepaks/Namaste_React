@@ -15,7 +15,8 @@ const Title = () => (
      <h1 id="head"
           className="head"
           tabIndex="1"
-     >{elem}
+     >
+          {elem}
           Namaste React Using JSX 🚀</h1>
 );
 
