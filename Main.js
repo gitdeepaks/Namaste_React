@@ -2,9 +2,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const elem = <span id="head2">React Element</span>
+const elem = <span id="head2">React Element 🚀</span>
 
-const firstTest = <p>Hello there this is Live React Session</p>
+const firstTest = <p>Hello there this is mhy firstTest section that I put into the virtual DOM 🚀 </p>
 
 const title = (
      <h1 id="head"
