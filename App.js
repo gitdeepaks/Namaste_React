@@ -2,45 +2,72 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const elem = <span id="head2">React Element 🚀</span>
 
-const firstTest = <p>Hello there this is mhy firstTest section that I put into the virtual DOM 🚀 </p>
+const Header = () => {
+     return (
+          <div className="header">
+               <div>
+                    <img className="logo" src="https://1000logos.net/wp-content/uploads/2021/05/Swiggy-logo.png" />
+               </div>
+               <div className="nav-items">
+                    <ul>
+                         <li>Home</li>
+                         <li>About</li>
+                         <li>Contact Us</li>
+                         <li>Cart</li>
+                    </ul>
+               </div>
+          </div>
+     )
+}
 
-const title = (
-     <h1 id="head"
-          className="head"
-          tabIndex="1"
-     >{elem}
-          Namaste React Using element JSX 🚀</h1>
-);
-const Title = () => (
-     <h1 id="head"
-          className="head"
-          tabIndex="1"
-     >
-          {elem}
-          {firstTest}
-          Namaste React Using JSX 🚀</h1>
 
-);
+const styleCard = {
+     backgroundColor: "#f0f0f0",
 
-//React Components
+}
 
-//Functional Components
-//Component Composition
-const HeadingComponenet = () => (
+const RestaurantCart = () => {
+     return (
+          <div className="res-cart" style={styleCard}>
+               <img className="res-logo"
+                    src="https://www.indianveggiedelight.com/wp-content/uploads/2020/04/veg-biryani-instant-pot.jpg" />
+               <h3>Meghna Foods</h3>
+               <h4>Biryani, North Indian, Asian</h4>
+               <h4>4.4 stars</h4>
+               <h4>38 Minutes</h4>
+          </div>
+     )
+}
 
-     <div id="container">
-          {title}
-          <Title />
-          <h1 id="head" className="heading">Namaste React Functional Component 🚀</h1>
-     </div>
-);
+const Body = () => {
+     return (
+          <div className="body">
+               <div>
+                    <div className="search">Search</div>
+                    <div className="res-container">
+                         <RestaurantCart />
+                         <RestaurantCart />
+
+                    </div>
+               </div>
+          </div>
+     )
+}
+
+const AppLayout = () => {
+     return (
+          <div className="app">
+               <Header />
+               <Body />
+          </div>
+     )
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // root.render(head);
-root.render(<HeadingComponenet />);
+root.render(<AppLayout />);
 
 
 
