@@ -27,13 +27,15 @@ const styleCard = {
 
 }
 
-const RestaurantCart = () => {
+const RestaurantCart = (props) => {
+
+
      return (
           <div className="res-cart" style={styleCard}>
                <img className="res-logo"
                     src="https://www.indianveggiedelight.com/wp-content/uploads/2020/04/veg-biryani-instant-pot.jpg" />
-               <h3>Meghna Foods</h3>
-               <h4>Biryani, North Indian, Asian</h4>
+               <h3>{props.resName}</h3>
+               <h4>{props.cuisine}</h4>
                <h4>4.4 stars</h4>
                <h4>38 Minutes</h4>
           </div>
@@ -41,13 +43,19 @@ const RestaurantCart = () => {
 }
 
 const Body = () => {
+
      return (
           <div className="body">
                <div>
                     <div className="search">Search</div>
                     <div className="res-container">
-                         <RestaurantCart />
-                         <RestaurantCart />
+                         <RestaurantCart
+                              resName="Meghna Food"
+                              cuisine="Biryani, North Indian, Asian"
+                         />
+                         <RestaurantCart resName="KFC"
+                              cuisine="Burger, Fast Food"
+                         />
 
                     </div>
                </div>
