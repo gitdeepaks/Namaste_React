@@ -47,7 +47,9 @@ const Body = () => {
      return (
           <div className="body">
                <div>
-                    <div className="search">Search</div>
+                    <div className="search">
+                         <input className="search" type={"search"} />
+                    </div>
                     <div className="res-container">
                          <RestaurantCart
                               resName="Meghna Food"
