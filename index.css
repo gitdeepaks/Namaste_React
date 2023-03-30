@@ -30,7 +30,7 @@
   margin: 5px;
   padding: 5px;
   width: 200px;
-  height: 300px;
+  height: 350px;
 }
 
 .res-cart:hover {
@@ -54,4 +54,11 @@
 
 .app {
   background-image: linear-gradient(#d8c1ad, #ddc87f);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 600px;
 }
