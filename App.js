@@ -2040,6 +2040,7 @@ const resObj = [
      }
 ];
 
+
 //not using keys (not acceptable) <<<<< index as keys <<<<<<< unique id (best practice)
 
 const Body = () => {
