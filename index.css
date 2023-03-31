@@ -7,10 +7,11 @@
 
 .logo {
   padding-top: 18px;
-  width: 120px;
+  width: 140px;
   cursor: pointer;
 }
 .nav-items {
+  display: flex;
   padding: 0px 20px;
 }
 .nav-items > ul {
@@ -30,7 +31,6 @@
   margin: 5px;
   padding: 5px;
   width: 200px;
-  height: 350px;
 }
 
 .res-cart:hover {
