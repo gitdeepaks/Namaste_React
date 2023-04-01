@@ -56,8 +56,8 @@ const RestaurantCart = (props) => {
                <h4>{costForTwo / 100}</h4>
                <h4>{deliveryTime} Minutes</h4>
           </div>
-     )
-}
+     );
+};
 
 const resObj = [
      {
