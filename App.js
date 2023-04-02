@@ -24,10 +24,6 @@ const Header = () => {
 }
 
 
-const styleCard = {
-     backgroundColor: "#f0f0f0",
-
-}
 
 const RestaurantCart = (props) => {
      const { resData } = props;
