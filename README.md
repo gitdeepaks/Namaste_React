@@ -19,6 +19,6 @@
 - HTTPS Server Support
 - Tree Shaking
 - Remove Unused code for you.
-  -Types of Exports in REACT :
+- Types of Exports in REACT :
   - export Defaults
   - components from "path"
