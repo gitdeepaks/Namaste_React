@@ -17,7 +17,8 @@
 - Daignostics
 - Error Handling
 - HTTPS Server Support
-- Tree Shaking - Remove Unused code for you.
+- Tree Shaking
+- Remove Unused code for you.
   -Types of Exports in REACT :
   - export Defaults
   - components from "path"
