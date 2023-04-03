@@ -68,3 +68,8 @@
   display: flex;
   flex: space-around;
 }
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
