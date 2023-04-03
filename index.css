@@ -31,10 +31,11 @@
   margin: 5px;
   padding: 5px;
   width: 200px;
+  background-color: azure;
 }
 
 .res-cart:hover {
-  border: 1px solid #252525;
+  border: 2px solid #252525;
   cursor: pointer;
 }
 
@@ -53,7 +54,7 @@
 }
 
 .app {
-  background-image: linear-gradient(#a66c3a, #a1872a);
+  background-image: linear-gradient(#ccbeb3, #edd9d9);
 }
 
 .search {
@@ -61,4 +62,9 @@
   align-items: center;
   border-radius: 10px;
   width: 600px;
+}
+
+.main-foot {
+  display: flex;
+  flex: space-around;
 }

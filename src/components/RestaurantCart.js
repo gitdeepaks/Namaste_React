@@ -1,4 +1,5 @@
 import React from 'react'
+import { CON_URL } from '../utils/constants';
 
 const RestaurantCart = (props) => {
     const { resData } = props;
@@ -17,8 +18,8 @@ const RestaurantCart = (props) => {
         <div className="res-cart" >
             <img
                 className="res-logo"
-                src={
-                    "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" + cloudinaryImageId}
+                src={CON_URL
+                    + cloudinaryImageId}
 
             />
             <h3>{name}</h3>

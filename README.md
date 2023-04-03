@@ -1,4 +1,4 @@
-# Namaste React 🚀
+# _Namaste React_ 🚀
 
 ## Parcel
 
@@ -18,3 +18,6 @@
 - Error Handling
 - HTTPS Server Support
 - Tree Shaking - Remove Unused code for you.
+  -Types of Exports in REACT :
+  - export Defaults
+  - components from "path"

@@ -4,13 +4,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import RestaurantCart from "./components/RestaurantCart";
 import Body from "./components/Body";
-
-
-
-
-
-
-
+import Footer from "./components/Footer";
 
 //not using keys (not acceptable) <<<<< index as keys <<<<<<< unique id (best practice)
 
@@ -40,6 +34,7 @@ const AppLayout = () => {
           <div className="app">
                <Header />
                <Body />
+               <Footer />
           </div>
      )
 }
