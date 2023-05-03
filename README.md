@@ -22,3 +22,8 @@
 - Types of Exports in REACT :
   - export Defaults
   - components from "path"
+
+## _React Hooks_ (Normal JS Utility functions)
+
+- useState() - superpowerful react variables
+- useEffect()
